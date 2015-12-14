@@ -32,7 +32,7 @@ $ npm install gdk
   
   At First make sure that your env is in your project and you npm installed gdk.
   
-  You can download Learning Project.
+  You can download [Learning Project](http://creativision.cn/project.tar.gz).
   
   1.Create bin File to guide - bin/start.js
   
