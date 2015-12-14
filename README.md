@@ -18,7 +18,7 @@ $ npm install gdk
   * Support Cluster Mode.
   * Locked global error,never shut down.
   
-## Docs & Community
+## Docs & Community [[all building]]
 
   * http://creativision.cn
   * http://guapijs.com
@@ -32,7 +32,7 @@ $ npm install gdk
   
   At First make sure that your env is in your project and you npm installed gdk.
   
-  You can download [Learning Project](http://creativision.cn/project.tar.gz).
+  You can download [Learning Project](http://fs.creativision.cn/project.tar.gz).
   
   1.Create bin File to guide - bin/start.js
   
