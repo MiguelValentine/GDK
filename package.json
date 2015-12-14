@@ -1,0 +1,23 @@
+{
+  "name": "gdk",
+  "description": "global based frameworks",
+  "main": "./index.js",
+  "author": {
+    "name": "Miguel Valentine"
+  },
+  "version": "1.0.0",
+  "keywords": [
+    "global",
+    "gdk",
+    "hot-update"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelValentine/GDK.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MiguelValentine/GDK/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/MiguelValentine/GDK#readme"
+}

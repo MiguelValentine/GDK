@@ -1,0 +1,30 @@
+//path
+gdk.updatePath.common = __filename;
+
+gdk.c = {};
+gdk.c.assert            = require('assert');
+gdk.c.buffer            = require('buffer');
+gdk.c.child_process     = require('child_process');
+gdk.c.cluster           = require('cluster');
+gdk.c.console           = require('console');
+gdk.c.crypto            = require('crypto');
+gdk.c.dgram             = require('dgram');
+gdk.c.events            = require('events');
+gdk.c.url               = require('url');
+gdk.c.util              = require('util');
+gdk.c.tls               = require('tls');
+gdk.c.stream            = require('stream');
+gdk.c.repl              = require('repl');
+gdk.c.readline          = require('readline');
+gdk.c.string_decoder    = require('string_decoder');
+gdk.c.punycode          = require('punycode');
+gdk.c.fs                = require('fs');
+gdk.c.path              = require('path');
+gdk.c.os                = require('os');
+gdk.c.http              = require('http');
+gdk.c.https             = require('https');
+gdk.c.net               = require('net');
+gdk.c.querystring       = require('querystring');
+gdk.c.v8                = require('v8');
+gdk.c.vm                = require('vm');
+gdk.c.zlib              = require('zlib');
