@@ -36,7 +36,7 @@ $ npm install gdk
   
   1.Create bin File to guide - bin/start.js
   
-  ```node
+  ```
   require('gdk')
   
   var baseDir  = __dirname;
@@ -53,7 +53,7 @@ $ npm install gdk
   
   2.Create config File - config/index.js
   
-  ```node
+  ```
   var baseFile = __filename;
   gdk.updatePath.config = baseFile;
   
@@ -64,7 +64,7 @@ $ npm install gdk
   
   3.Create http base - http/index.js
   
-  ```node
+  ```
   gdk.updatePath.http = __filename;
   gdk.http = {};
   
@@ -75,7 +75,7 @@ $ npm install gdk
   
   4.Create flow file - http/flow/index.js
   
-  ```node
+  ```
   gdk.http.flow = function(req,res){
     if(gdk.http.router[gdk.c.url.parse(req.url).path]){
       gdk.http.router[gdk.c.url.parse(req.url).path](req,res);
@@ -87,7 +87,7 @@ $ npm install gdk
   
   5.Create router file - http/router/index.js
   
-  ```node
+  ```
   gdk.http.router = {};
   
   gdk.http.router['/'] = function(req,res){
@@ -97,7 +97,7 @@ $ npm install gdk
   
   6.Create instance file - http/instance/index.js
   
-  ```node
+  ```
   gdk.http.server = function(req,res){
       gdk.http.flow(req,res);
   };
@@ -141,7 +141,7 @@ $ npm install gdk
 ### 3.Your command
 
   Example:
-  ```node
+  ```
   gdk.runTime.print = function(info){
     console.log(info)
   }
@@ -158,7 +158,7 @@ $ npm install gdk
   Workers can use process.send to call a runtime function in all workers or master.
 
   Example:
-  ```node
+  ```
   gdk.runTime.print = function(a,b){
     console.log(a+b)
   }
@@ -167,7 +167,7 @@ $ npm install gdk
   ```
   
   Example:
-  ```node
+  ```
   gdk.runTime.MainCore = function(a,b){
     console.log(a+b)
   }
