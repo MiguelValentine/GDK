@@ -1,6 +1,6 @@
-# gdk
+# GDK
 
-gdk is a global based framework for node.
+GDK is a global based framework for node.
 
 ## Installation
 
@@ -115,4 +115,62 @@ $ npm install gdk
   
   ```bash
   node bin/start.js
+  ```
+  
+## Command
+
+### 1.bash command
+  
+  Example:
+  ```bash
+  bash---console.log(gdk.config)
+  ```
+  
+### 2.Hot-update command
+
+  Example:
+  ```bash
+  update---config
+  ```
+
+  Example2:
+  ```bash
+  upfile---/node/http/index.js
+  ```
+  
+### 3.Your command
+
+  Example:
+  ```node
+  gdk.runTime.print = function(info){
+    console.log(info)
+  }
+  ```
+  
+  ```bash
+  print---here is a test
+  ```
+  
+## Cluster message I/O
+
+  In gdk Cluster mode.gdk.cluster(cb).cb will always run on workers.
+
+  Workers can use process.send to call a runtime function in all workers or master.
+
+  Example:
+  ```node
+  gdk.runTime.print = function(a,b){
+    console.log(a+b)
+  }
+  
+  process.send({bash:'print',arg:{'hello',' world'}});
+  ```
+  
+  Example:
+  ```node
+  gdk.runTime.MainCore = function(a,b){
+    console.log(a+b)
+  }
+    
+  process.send({bash:'MainCore',arg:{'hello',' world'},Master:true});
   ```
