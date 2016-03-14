@@ -18,11 +18,9 @@ $ npm install gdk
   * Support Cluster Mode.
   * Locked global error,never shut down.
   
-## Docs & Community [[all building]]
+## Docs & Community[Writing]
 
   * http://creativision.cn
-  * http://guapijs.com
-  * http://guapijs.cn
   
 ## Quick Start
 
