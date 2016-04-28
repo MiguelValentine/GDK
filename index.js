@@ -1,4 +1,4 @@
-global.gdk = {};
+global.gdk = Object.create(null);
 
 
 //guide-status
