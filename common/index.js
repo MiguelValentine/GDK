@@ -25,6 +25,5 @@ gdk.c.http              = require('http');
 gdk.c.https             = require('https');
 gdk.c.net               = require('net');
 gdk.c.querystring       = require('querystring');
-gdk.c.v8                = require('v8');
 gdk.c.vm                = require('vm');
 gdk.c.zlib              = require('zlib');
