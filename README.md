@@ -10,9 +10,9 @@ $ npm install gdk
 
 ## Features
 
-  * No export And require.
-  * NO third-module.
-  * Micro enough.
+  * No export.
+  * NO third-party module.
+  * Micro.
   * Flat.
   * Support command.
   * Support Cluster Mode.
@@ -28,7 +28,7 @@ $ npm install gdk
   
   I don't think less is best.I can guide you to make your our service different with anyone.
   
-  At First make sure that your env is in your project and you npm installed gdk.
+  At First make sure that your shell env is in your project and you npm installed gdk.
   
   You can download [Learning Project](http://fs.creativision.cn/project.tar.gz).
   
